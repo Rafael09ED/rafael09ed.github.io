@@ -18,7 +18,8 @@
 }
 
 .Title {
-    font-size: 5em;
+    font-size: calc(1.5em + 10vw);
+    max-height: 2em;
     color: white;
 }
 
@@ -37,10 +38,17 @@
     font-size: 4em;
 }
 
+.list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-flow: row wrap;
+    align-content: flex-end;
+}
 .list > a {
-    display: inline;
     font-size: 2em;
-    padding-left: 1em;
-    padding-right: 1em;
+    padding-left: 4%;
+    padding-right: 4%;
     color: white;
 }
