@@ -1,28 +1,46 @@
 .App {
-  text-align: center;
+    text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+.Section {
+    padding: 2.2em;
+    color: black;
 }
 
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
+.black {
+    background-color: #090909;
+    color: white;
 }
 
-.App-title {
-  font-size: 1.5em;
+.dark_grey {
+    background-color: #222;
+    color: #d1d1d1;
 }
 
-.App-intro {
-  font-size: large;
+.Title {
+    font-size: 5em;
+    color: white;
 }
 
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+.Title-Subtext {
+    font-size: 1.3em;
+}
+
+.github_logo {
+    color: black;
+}
+
+.logo {
+    padding: .05em;
+    vertical-align: middle;
+    height: 1em;
+    font-size: 4em;
+}
+
+.list > a {
+    display: inline;
+    font-size: 2em;
+    padding-left: 1em;
+    padding-right: 1em;
+    color: white;
 }
