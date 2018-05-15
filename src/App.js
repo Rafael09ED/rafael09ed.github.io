@@ -8,7 +8,7 @@ class App extends Component {
     render() {
         return (
             <div className="App">
-                <div className="Section dark_grey">
+                <div className="Section patternedFixedBg">
                     <h1 className="Title">Rafael Dejesus</h1>
                 </div>
                 <div className="Section">
@@ -17,18 +17,20 @@ class App extends Component {
                     </p>
                 </div>
                 <div className="Section dark_grey">
-                    <p>I know</p>
+                    <p>I use</p>
                     <div className="list">
                         <a>Java</a>
                         <a>C++</a>
                         <a>SQF</a>
+                        <a>JavaScript</a>
+                        <a>HTML</a>
+                        <a>CSS</a>
                     </div>
                     <p>and am learning</p>
                     <div className="list">
-                        <a>Python</a>
-                        <a>Javascript</a>
-                        <a>ARM</a>
                         <a>Go</a>
+                        <a>Python</a>
+                        <a>ARM</a>
                     </div>
                 </div>
                 <div className="Section ">
