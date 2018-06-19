@@ -8,6 +8,17 @@
     color: black;
 }
 
+.titlePadding {
+    padding: .7em;
+}
+
+.primaryContent {
+    margin: auto !important;
+    padding-left: 1em;
+    padding-right: 1em;
+    max-width: 80em;
+}
+
 .black {
     background-color: #090909;
     color: white;
@@ -24,7 +35,7 @@
 
 .Title {
     font-size: calc(1.5em + 10vw);
-    max-height: 2em;
+    max-height: 3em;
     color: white;
 }
 
@@ -39,8 +50,12 @@
 .logo {
     padding: .05em;
     vertical-align: middle;
-    height: 1em;
-    font-size: 4em;
+    height: 4em;
+}
+
+.logoGroup {
+    white-space: nowrap;
+    max-width: 95%;
 }
 
 .list {
@@ -53,10 +68,26 @@
     flex-flow: row wrap;
 }
 
-.list > a {
+.list > div {
     font-size: 2em;
     margin-left: .5em;
     margin-right: .5em;
     color: white;
     flex: 0 0 5em;
+}
+
+.projectList {
+    margin: 2em;
+}
+
+/* BULMA MODIFIERS */
+
+.bm--card-equal-height {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.bm--card-equal-height .card-footer {
+    margin-top: auto;
 }

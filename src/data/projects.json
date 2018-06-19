@@ -1,0 +1,26 @@
+[
+  {
+    "title" : "Nexus Mod Manager Mod Profile Exporter",
+    "body": "Finds, formats and exports mod profile lists from the Nexis Mod Manager into a customizable format",
+    "primaryText": "GitHub",
+    "primaryLink": "https://github.com/Rafael09ED/NMMModProfileExporter",
+    "secondaryText": "Download",
+    "secondaryLink": "https://github.com/Rafael09ED/NMMModProfileExporter/releases"
+  },
+  {
+    "title" : "Fight Blight Bmore Blight Indicators Heatmap",
+    "body": "Assisted creating the blight heatmap during the 2018 Hack for Impact Baltimore Hackathon",
+    "primaryText": "GitHub",
+    "primaryLink": "https://github.com/chrisuehlinger/bmore-blight-map",
+    "secondaryText": "Live",
+    "secondaryLink": "https://bmore-fight-blight.surge.sh/bmore.html"
+  },
+  {
+    "title" : "Web SlideShow",
+    "body": "A basic web application that shuffles and displays pictures in a slideshow format",
+    "primaryText": "GitHub",
+    "primaryLink": "https://github.com/Rafael09ED/WebSlideshow",
+    "secondaryText": "Live",
+    "secondaryLink": "https://rafael09ed.github.io/WebSlideshow/"
+  }
+]
