@@ -7,33 +7,45 @@ import 'bulma/css/bulma.css';
 import ProjectCard from "./ProjectCard";
 import projects from "./data/projects.json"
 
+//import skills from "./data/skills.json"
+
 class App extends Component {
-    render() {
+    constructor(props) {
+        super(props);
+
         const projectsList = [];
-        for (let project of projects){
+        for (let project of projects)
             projectsList.push(<ProjectCard {...project}/>);
+
+        this.state = {
+            projectsList
         }
+    }
+
+    render() {
+        const projectsList = this.state.projectsList;
+
         return (
             <div className="App">
-                <div className="Section patternedFixedBg">
-                    <h1 className="Title">Rafael Dejesus</h1>
+                <div className="primarySection patternedFixedBg NameWrapper">
+                    <h1 className="Name ">Rafael DeJesus</h1>
                 </div>
                 <div className="Section">
                     <p className="Title-Subtext primaryContent">
                         I am a Computer Science student at Clemson University
                     </p>
                 </div>
-                <div className="Section dark_grey">
+                <div className="Section dark_grey patternedFixedBg">
                     <p>I use</p>
                     <div className="list primaryContent">
-                        <div>Java</div>
-                        <div>C++</div>
-                        <div>SQF</div>
                         <div>JavaScript</div>
+                        <div>C++</div>
+                        <div>Java</div>
+                        <div>SQF</div>
                         <div>HTML</div>
                         <div>CSS</div>
                     </div>
-                    <p>and am learning</p>
+                    <p className="lightPadding">and am learning</p>
                     <div className="list">
                         <div>Go</div>
                         <div>Python</div>
@@ -48,23 +60,26 @@ class App extends Component {
                         </div>
                     </div>
                 </div>
-                <div className="Section ">
-                    <p className="title">
-                        You can find me on:
-                    </p>
-                    <a href="https://github.com/Rafael09ED" className="logoGroup">
-                        <img src={github_logo} className="logo github_logo" alt="Rafael's Github"/>
-                    </a>
+                <div className="">
+                    <p className="title titlePadding">You can find me on:</p>
+                    <div className="list primaryContent">
+                        <a href="https://github.com/Rafael09ED" className="logo logoGroup">
+                            <img src={github_logo} className="github_logo" alt="Rafael's Github"/>
+                        </a>
+                        <a href="https://gist.github.com/Rafael09ED" className="logo logoGroup ">
+                            <img src={github_logo} className="github_logo" alt="Rafael's Github Gists"/>
+                            <img src={github_gist_logo} className="github_logo" alt="Rafael's Github Gists"/>
+                        </a>
+                        <a href="https://www.linkedin.com/in/rdejesu" className="logo logoGroup">
+                            <img src={linkedIn_logo} alt="Rafael's LinkedIn"/>
+                        </a>
+                    </div>
                     <br/>
-                    <a href="https://gist.github.com/Rafael09ED" className="logoGroup">
-                        <img src={github_logo} className="logo github_logo" alt="Rafael's Github Gists"/>
-                        <img src={github_gist_logo} className="logo github_logo" alt="Rafael's Github Gists"/>
-                    </a>
                     <br/>
-                    <a href="https://www.linkedin.com/in/rdejesu" className="logoGroup">
-                        <img src={linkedIn_logo} className="logo" alt="Rafael's LinkedIn"/>
-                    </a>
                     <br/>
+                </div>
+                <div className="Section black patternedFixedBg">
+                    <p className="">Created 2018 by Rafael DeJesus</p>
                 </div>
             </div>
         );

@@ -22,5 +22,11 @@
     "primaryLink": "https://github.com/Rafael09ED/WebSlideshow",
     "secondaryText": "Live",
     "secondaryLink": "https://rafael09ed.github.io/WebSlideshow/"
+  },
+  {
+  "title" : "Key Terms Linker Bookmarklet",
+  "body": "Bookmarklet to hyperlink key words on a webpage to it's matching Wikipedia page",
+  "primaryText": "GitHub Gist",
+  "primaryLink": "https://gist.github.com/Rafael09ED/a18a4dad88edc357b2d8eb28c75d74f2"
   }
 ]
