@@ -40,6 +40,14 @@
     "primaryLink": "https://github.com/chrisuehlinger/bmore-blight-map"
   },
   {
+    "title" : "Arma 3 - Survivable Crashes mod",
+    "body": "Video Game modification that prevents death when the vehicle a player is in explodes",
+    "primaryText": "BI Forums",
+    "primaryLink": "https://forums.bohemia.net/forums/topic/190516-survivable-crashes-shoot-downs-mod/",
+    "secondaryText": "GitHub",
+    "secondaryLink": "https://github.com/Rafael09ED/Arma/tree/master/mods/Survivable%20Crashes"
+  },
+  {
     "title" : "Web SlideShow",
     "body": "A very basic web application that shuffles and displays pictures in a slideshow format",
     "primaryText": "GitHub",
