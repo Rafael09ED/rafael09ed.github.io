@@ -1,15 +1,29 @@
 [
   {
     "title" : "TRACE Camp",
-    "body": "Co-founder, teaching 50+ students web programming. Adapted to successful online format for COVID-19.",
+    "body": "Co-founder, teaching 50+ students web programming. Adapted to successful online format during COVID-19",
     "primaryText": "Website",
     "primaryLink": "https://tracecamp.com/"
   },
   {
     "title" : "Pads for Change",
-    "body": "Created IOT feminine hygiene dispenser with team. Won Best Hardware Hack for Clemson's 2019 Hackathon",
+    "body": "Created IoT feminine hygiene dispenser with team. Won Best Hardware Hack for Clemson's 2019 Hackathon",
     "primaryText": "Devpost",
     "primaryLink": "https://devpost.com/software/cuhackit-2019"
+  },
+  {
+    "title" : "Libery Prime",
+    "body": "Google Asssistant Skill that gives quotes from the robot Liberty Prime from the game Fallout 4",
+    "primaryText": "Google Assistant Page",
+    "primaryLink": "assistant.google.com/services/a/uid/000000a34f40eecd"
+  },
+  {
+    "title" : "t-min.us",
+    "body": "Website for creating coutdowns with sharable URLs",
+    "primaryText": "Website",
+    "primaryLink": "http://t-min.us/",
+    "secondaryText": "GitHub",
+    "secondaryLink": "https://github.com/Rafael09ED/NMMModProfileExporter/releases"
   },
   {
     "title" : "Nexus Mod Manager Mod Profile Exporter",
