@@ -6,11 +6,11 @@
 .primarySection {
     padding: 2.2em;
     color: black;
-    height: 91vh;
+    height: 87vh;
 }
 
 .Section {
-    padding: 4.2em;
+    padding: 4.2em 1em;
     color: black;
 }
 
