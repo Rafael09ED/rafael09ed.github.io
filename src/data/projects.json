@@ -1,5 +1,17 @@
 [
   {
+    "title" : "TRACE Camp",
+    "body": "Co-founder, developed curriculum, teaching 50+ students web programming. Adapted to successful online format for COVID-19.",
+    "primaryText": "Website",
+    "primaryLink": "https://tracecamp.com/"
+  },
+  {
+    "title" : "Pads for Change",
+    "body": "Created IOT feminine hygiene dispenser with team. Won Best Hardware Hack for Clemson's 2019 Hackacthon",
+    "primaryText": "Devpost",
+    "primaryLink": "https://devpost.com/software/cuhackit-2019"
+  },
+  {
     "title" : "Nexus Mod Manager Mod Profile Exporter",
     "body": "Finds, formats and exports mod profile lists from the Nexis Mod Manager into a customizable format",
     "primaryText": "GitHub",
@@ -11,13 +23,11 @@
     "title" : "Fight Blight Bmore Blight Indicators Heatmap",
     "body": "Assisted creating the blight heatmap during the 2018 Hack for Impact Baltimore Hackathon",
     "primaryText": "GitHub",
-    "primaryLink": "https://github.com/chrisuehlinger/bmore-blight-map",
-    "secondaryText": "Live",
-    "secondaryLink": "https://bmore-fight-blight.surge.sh/bmore.html"
+    "primaryLink": "https://github.com/chrisuehlinger/bmore-blight-map"
   },
   {
     "title" : "Web SlideShow",
-    "body": "A basic web application that shuffles and displays pictures in a slideshow format",
+    "body": "A very basic web application that shuffles and displays pictures in a slideshow format",
     "primaryText": "GitHub",
     "primaryLink": "https://github.com/Rafael09ED/WebSlideshow",
     "secondaryText": "Live",

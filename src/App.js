@@ -31,24 +31,24 @@ class App extends Component {
                     <h1 className="Name ">Rafael DeJesus</h1>
                 </div>
                 <div className="Section">
-                    <p className="Title-Subtext primaryContent">
-                        I am a Computer Science student at Clemson University
+                    <p className="Title-Subtext primaryContent center_text">
+                        I am a Computer Science student at Clemson University graduating this August.
                     </p>
                 </div>
                 <div className="Section dark_grey patternedFixedBg">
                     <p>I use</p>
-                    <div className="list primaryContent">
+                    <div className="my_list primaryContent">
                         <div>JavaScript</div>
                         <div>C++</div>
                         <div>Java</div>
+                        <div>Python</div>
                         <div>SQF</div>
                         <div>HTML</div>
                         <div>CSS</div>
                     </div>
                     <p className="lightPadding">and am learning</p>
-                    <div className="list">
+                    <div className="my_list">
                         <div>Go</div>
-                        <div>Python</div>
                         <div>ARM</div>
                     </div>
                 </div>
@@ -62,7 +62,7 @@ class App extends Component {
                 </div>
                 <div className="">
                     <p className="title titlePadding">You can find me on:</p>
-                    <div className="list primaryContent">
+                    <div className="my_list primaryContent">
                         <a href="https://github.com/Rafael09ED" className="logo logoGroup">
                             <img src={github_logo} className="github_logo" alt="Rafael's Github"/>
                         </a>
@@ -79,7 +79,7 @@ class App extends Component {
                     <br/>
                 </div>
                 <div className="Section black patternedFixedBg">
-                    <p className="">Created 2018 by Rafael DeJesus</p>
+                    <p className="">Created 2020 by Rafael DeJesus</p>
                 </div>
             </div>
         );

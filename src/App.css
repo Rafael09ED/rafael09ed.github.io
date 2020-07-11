@@ -1,12 +1,12 @@
 .App {
-    text-align: center;
     font-family: 'Merriweather Sans', sans-serif;
+    text-align: center;
 }
 
 .primarySection {
     padding: 2.2em;
     color: black;
-    height: 100vh;
+    height: 91vh;
 }
 
 .Section {
@@ -78,7 +78,7 @@
     height: 4em;
 }
 
-.list {
+.my_list {
     width: calc(80vw - 10em);
     margin-left: auto;
     margin-right: auto;
@@ -87,12 +87,12 @@
     flex-flow: row wrap;
 }
 
-.list > a {
+.my_list > a {
     flex: 1 0 20em;
     margin: .5em;
 }
 
-.list > div {
+.my_list > div {
     font-size: 2em;
     margin-left: .1em;
     margin-right: .1em;
@@ -114,4 +114,9 @@
 
 .bm--card-equal-height .card-footer {
     margin-top: auto;
+}
+
+.card-header-title {
+    text-align: center;
+    display: block !important;
 }
