@@ -15,11 +15,11 @@
     "title" : "Libery Prime",
     "body": "Google Asssistant Skill that gives quotes from the robot Liberty Prime from the game Fallout 4",
     "primaryText": "Google Assistant Page",
-    "primaryLink": "assistant.google.com/services/a/uid/000000a34f40eecd"
+    "primaryLink": "https://assistant.google.com/services/a/uid/000000a34f40eecd"
   },
   {
     "title" : "t-min.us",
-    "body": "Website for creating coutdowns with sharable URLs",
+    "body": "Website for creating countdowns with sharable URLs",
     "primaryText": "Website",
     "primaryLink": "http://t-min.us/",
     "secondaryText": "GitHub",
