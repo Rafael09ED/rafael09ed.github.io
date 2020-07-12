@@ -6,24 +6,48 @@ import './App.css';
 import 'bulma/css/bulma.css';
 import ProjectCard from "./ProjectCard";
 import projects from "./data/projects.json"
+import skillsData  from "./data/skills.json";
 
 //import skills from "./data/skills.json"
+
 
 class App extends Component {
     constructor(props) {
         super(props);
+        // SKILLS
+        const skillsList = [];
+        for (let skillSection of skillsData){
+            skillsList.push(<p className="lightPadding">{skillSection.title}</p>);
 
+            let skillList = [];
+            for (let skill of skillSection.list){
+                if (skill.length > 10) {
+                    skillList.push(<div style={{flexBasis: '10em'}}>{skill}</div>);
+
+                } else {
+                    skillList.push(<div>{skill}</div>);
+                }
+            }
+            skillsList.push(<div className="my_list">
+                {skillList}
+            </div>);
+        }
+
+
+        // PROJECTS
         const projectsList = [];
         for (let project of projects)
             projectsList.push(<ProjectCard {...project}/>);
 
         this.state = {
-            projectsList
+            projectsList,
+            skillsList
         }
     }
 
     render() {
         const projectsList = this.state.projectsList;
+        const skillsList = this.state.skillsList;
 
         return (
             <div className="App">
@@ -36,21 +60,7 @@ class App extends Component {
                     </p>
                 </div>
                 <div className="Section dark_grey patternedFixedBg">
-                    <p>I use</p>
-                    <div className="my_list primaryContent">
-                        <div>JavaScript</div>
-                        <div>C++</div>
-                        <div>Java</div>
-                        <div>Python</div>
-                        <div>SQF</div>
-                        <div>HTML</div>
-                        <div>CSS</div>
-                    </div>
-                    <p className="lightPadding">and am learning</p>
-                    <div className="my_list">
-                        <div>Go</div>
-                        <div>ARM</div>
-                    </div>
+                    {skillsList}
                 </div>
                 <div className="Section">
                     <h2 className="title titlePadding">Projects I've Worked On</h2>

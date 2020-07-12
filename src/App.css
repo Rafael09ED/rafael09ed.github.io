@@ -5,8 +5,8 @@
 
 .primarySection {
     padding: 2.2em;
-    color: black;
-    height: 87vh;
+    color: #000000;
+    height: 53vh;
 }
 
 .Section {
@@ -50,11 +50,16 @@
 .Name {
     /* margin-top: calc(25vh - .2em); */
     margin: auto auto;
-    font-size: calc(1.5em + 10vw);
-    line-height: calc(.3em + 20vh);
+    font-size: calc(4em);
     max-height: 3em;
     color: white;
 }
+@media (min-width: 680px) and (orientation: landscape) { 
+    .Name {
+        font-size: 9em;
+    }
+ }
+
 
 .Title-Subtext {
     font-size: 1.3em;
@@ -85,6 +90,7 @@
     display: flex;
     justify-content: center;
     flex-flow: row wrap;
+    max-width: 1200px;
 }
 
 .my_list > a {

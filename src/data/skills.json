@@ -1,4 +1,10 @@
-{
-  "use": ["Java", "C++", "SQF", "JavaScript", "HTML", "CSS"],
-  "learning": ["Python", "Go", "ARM"]
-}
+[
+  {
+    "title": "I use",
+    "list": ["JavaScript", "Python", "Java", "C++", "HTML", "CSS"]
+  },
+  {
+    "title": "and I have used",
+    "list": ["SQL", "SQF", "Neo4j", "Django", "React.js", "After Effects"]
+  }
+]
