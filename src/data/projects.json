@@ -35,12 +35,12 @@
   },
   {
     "title" : "Fight Blight Bmore Blight Indicators Heatmap",
-    "body": "Assisted creating the blight heatmap during the 2018 Hack for Impact Baltimore Hackathon",
+    "body": "Assisted creating blight heatmap during the 2018 Hack for Impact Baltimore Hackathon",
     "primaryText": "GitHub",
     "primaryLink": "https://github.com/chrisuehlinger/bmore-blight-map"
   },
   {
-    "title" : "Arma 3 - Survivable Crashes mod",
+    "title" : "Survivable Crashes mod - Arma 3",
     "body": "Video Game modification that prevents death when the vehicle a player is in explodes",
     "primaryText": "BI Forums",
     "primaryLink": "https://forums.bohemia.net/forums/topic/190516-survivable-crashes-shoot-downs-mod/",
@@ -57,7 +57,7 @@
   },
   {
   "title" : "Key Terms Linker Bookmarklet",
-  "body": "Bookmarklet to hyperlink key words on a webpage to it's matching Wikipedia page",
+  "body": "Bookmarklet to hyperlink key words on a webpage to its matching Wikipedia page",
   "primaryText": "GitHub Gist",
   "primaryLink": "https://gist.github.com/Rafael09ED/a18a4dad88edc357b2d8eb28c75d74f2"
   }
