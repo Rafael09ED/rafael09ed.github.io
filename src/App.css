@@ -110,6 +110,19 @@
     margin: 2em;
 }
 
+.card-stats {
+    color: grey;
+    text-align: left;
+    position: absolute;
+    bottom: 55px;
+    left: 13px;
+    font-size: .8em;
+}
+
+.card-content > .spacer {
+    height: .5em;
+}
+
 /* BULMA MODIFIERS */
 
 .bm--card-equal-height {

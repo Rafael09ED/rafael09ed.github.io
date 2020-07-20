@@ -3,14 +3,7 @@ import React, {Component} from 'react';
 class ProjectCard extends Component {
     constructor(props) {
         super(props);
-        this.state = {
-            title: props.title,
-            body: props.body,
-            primaryText: props.primaryText,
-            primaryLink: props.primaryLink,
-            secondaryText: props.secondaryText,
-            secondaryLink: props.secondaryLink
-        }
+        this.state = {...props}
     }
 
     render() {
@@ -22,6 +15,12 @@ class ProjectCard extends Component {
                     </div>
                     <div className="card-content">
                         <p>{this.state.body}</p>
+                        {this.state.stats &&
+                            <div className="spacer"></div>
+                        }    
+                        <div className="card-stats">
+                            <p>{this.state.stats}</p>
+                        </div>
                     </div>
                     <footer className="card-footer">
                         <p className="card-footer-item">
