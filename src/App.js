@@ -56,7 +56,7 @@ class App extends Component {
                 </div>
                 <div className="Section">
                     <p className="Title-Subtext primaryContent center_text">
-                        I am a Computer Science student at Clemson University graduating this August.
+                        I am a Computer Science graduate from Clemson University.
                     </p>
                 </div>
                 <div className="Section dark_grey patternedFixedBg">
