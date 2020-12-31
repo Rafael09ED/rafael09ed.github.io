@@ -10,6 +10,13 @@ class ProjectCard extends Component {
         return (
             <div className="column is-one-third-desktop is-half-tablet is-full-mobile">
                 <div className="card is-centered bm--card-equal-height">
+                    { this.state.photoURL &&
+                        <div class="card-image">
+                            <figure class="image is-16by9">
+                            <img src={this.state.photoURL} alt={`Photo of ${this.state.title}`}/>
+                            </figure>
+                        </div>
+                    }
                     <div className="card-header">
                         <p className="card-header-title">{this.state.title}</p>
                     </div>
