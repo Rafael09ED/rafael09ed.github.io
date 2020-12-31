@@ -60,9 +60,10 @@
     }
  }
 
-
 .Title-Subtext {
     font-size: 1.3em;
+    width: 90vw;
+    max-width: 1200px;
 }
 
 .github_logo {
@@ -100,8 +101,8 @@
 
 .my_list > div {
     font-size: 2em;
-    margin-left: .1em;
-    margin-right: .1em;
+    margin-left: .2em;
+    margin-right: .2em;
     color: white;
     flex: 0 0 5em;
 }
@@ -138,4 +139,8 @@
 .card-header-title {
     text-align: center;
     display: block !important;
+}
+
+.card .card-image .image img {
+    object-fit: cover;
 }

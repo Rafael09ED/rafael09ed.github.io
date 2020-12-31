@@ -6,7 +6,8 @@
     "primaryText": "Website",
     "primaryLink": "https://tracecamp.com/",
     "secondaryText": "Impact",
-    "secondaryLink": "https://www.notion.so/TRACE-Camp-s-Impact-3208ffd1b90948ceba650a2f48dc1308"
+    "secondaryLink": "https://www.notion.so/TRACE-Camp-s-Impact-3208ffd1b90948ceba650a2f48dc1308",
+    "photoURL": "https://tracecamp.com/static/bd648f5e582db9491a32b93c99267e43/ab9f8/splash.webp"
   },
   {
     "title" : "Pads for Change",
@@ -39,16 +40,18 @@
     "secondaryLink": "https://github.com/Rafael09ED/NMMModProfileExporter/releases"
   },
   {
-    "title" : "Fight Blight Bmore Blight Indicators Heatmap",
-    "body": "Assisted creating blight heatmap during the 2018 Hack for Impact Baltimore Hackathon",
-    "primaryText": "GitHub",
-    "primaryLink": "https://github.com/chrisuehlinger/bmore-blight-map"
-  },
-  {
     "title" : "Contribution to sindresorhus/p-queue",
     "body": "Added concurrency controls with corresponding documentation and tests to popular Javascript promise queue library",
     "primaryText": "Pull Request",
     "primaryLink": "https://github.com/sindresorhus/p-queue/pull/35"
+  },
+  {
+    "title" : "Infinite Photo Fill",
+    "body": "A program to navigate and generate an infinite canvas of photos without using a grid",
+    "primaryText": "Algorithm Demo",
+    "primaryLink": "https://rafaeldejesus.com/photoFill/",
+    "secondaryText": "GitHub",
+    "secondaryLink": "https://github.com/Rafael09ED/photoFill"
   },
   {
     "title" : "Survivable Crashes mod - Arma 3",
@@ -58,6 +61,12 @@
     "primaryLink": "https://forums.bohemia.net/forums/topic/190516-survivable-crashes-shoot-downs-mod/",
     "secondaryText": "GitHub",
     "secondaryLink": "https://github.com/Rafael09ED/Arma/tree/master/mods/Survivable%20Crashes"
+  },
+  {
+    "title" : "Fight Blight Bmore Blight Indicators Heatmap",
+    "body": "Assisted creating blight heatmap during the 2018 Hack for Impact Baltimore Hackathon",
+    "primaryText": "GitHub",
+    "primaryLink": "https://github.com/chrisuehlinger/bmore-blight-map"
   },
   {
     "title" : "Web SlideShow",

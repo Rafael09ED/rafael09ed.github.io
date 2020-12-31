@@ -8,8 +8,6 @@ import ProjectCard from "./ProjectCard";
 import projects from "./data/projects.json"
 import skillsData  from "./data/skills.json";
 
-//import skills from "./data/skills.json"
-
 
 class App extends Component {
     constructor(props) {
@@ -56,7 +54,7 @@ class App extends Component {
                 </div>
                 <div className="Section">
                     <p className="Title-Subtext primaryContent center_text">
-                        I am a Computer Science graduate from Clemson University.
+                        I am a Full Stack Software Developer at SAP Labs in Palo Alto and a Computer Science graduate from Clemson University.
                     </p>
                 </div>
                 <div className="Section dark_grey patternedFixedBg">
@@ -89,7 +87,7 @@ class App extends Component {
                     <br/>
                 </div>
                 <div className="Section black patternedFixedBg">
-                    <p className="">Created 2020 by Rafael DeJesus</p>
+                    <p className="">Created 2021 by Rafael DeJesus</p>
                 </div>
             </div>
         );
