@@ -10,6 +10,27 @@ class ProjectCard extends Component {
         return (
             <div className="column is-one-third-desktop is-half-tablet is-full-mobile">
                 <div className="card is-centered bm--card-equal-height">
+                    { this.state.photoURL &&
+                        <div class="card-image is-hidden-tablet">
+                            <figure class="image">
+                            <img src={this.state.photoURL} alt={`${this.state.title}`}/>
+                            </figure>
+                        </div>
+                    }
+                    { this.state.youtubeCode &&
+                        <div class="card-image is-hidden-tablet">
+                            <figure class="image is-16by9">
+                            <iframe class="has-ratio" title={`${this.state.youtubeCode}`} width="640" height="360" src={`https://www.youtube.com/embed/${this.state.youtubeCode}`} frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </figure>
+                        </div>
+                    }
+                    { this.state.embedURL &&
+                        <div class="card-image is-hidden-tablet">
+                            <figure class="image is-16by9">
+                            <iframe class="has-ratio" title={`${this.state.embedURL}`} width="640" height="360" src={this.state.embedURL} frameborder="0" allow="picture-in-picture"></iframe>
+                            </figure>
+                        </div>
+                    }
                     <div className="card-header">
                         <p className="card-header-title">{this.state.title}</p>
                     </div>

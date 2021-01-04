@@ -7,13 +7,14 @@
     "primaryLink": "https://tracecamp.com/",
     "secondaryText": "Impact",
     "secondaryLink": "https://www.notion.so/TRACE-Camp-s-Impact-3208ffd1b90948ceba650a2f48dc1308",
-    "photoURL": "https://tracecamp.com/static/bd648f5e582db9491a32b93c99267e43/ab9f8/splash.webp"
+    "photoURL": "./media/traceCamp.jpg"
   },
   {
     "title" : "Pads for Change",
     "body": "Created IoT feminine hygiene dispenser with team. Won Best Hardware Hack for Clemson's 2019 Hackathon",
     "primaryText": "Devpost",
-    "primaryLink": "https://devpost.com/software/cuhackit-2019"
+    "primaryLink": "https://devpost.com/software/cuhackit-2019",
+    "photoURL": "./media/padsForChange.jpg"
   },
   {
     "title" : "Liberty Prime",
@@ -51,7 +52,8 @@
     "primaryText": "Algorithm Demo",
     "primaryLink": "https://rafaeldejesus.com/photoFill/",
     "secondaryText": "GitHub",
-    "secondaryLink": "https://github.com/Rafael09ED/photoFill"
+    "secondaryLink": "https://github.com/Rafael09ED/photoFill",
+    "photoURL": "./media/photoFill.png"
   },
   {
     "title" : "Survivable Crashes mod - Arma 3",
@@ -60,7 +62,8 @@
     "primaryText": "BI Forums",
     "primaryLink": "https://forums.bohemia.net/forums/topic/190516-survivable-crashes-shoot-downs-mod/",
     "secondaryText": "GitHub",
-    "secondaryLink": "https://github.com/Rafael09ED/Arma/tree/master/mods/Survivable%20Crashes"
+    "secondaryLink": "https://github.com/Rafael09ED/Arma/tree/master/mods/Survivable%20Crashes",
+    "youtubeCode": "PV9u3UXykHc?start=40"
   },
   {
     "title" : "Fight Blight Bmore Blight Indicators Heatmap",
@@ -74,7 +77,8 @@
     "primaryText": "GitHub",
     "primaryLink": "https://github.com/Rafael09ED/WebSlideshow",
     "secondaryText": "Live",
-    "secondaryLink": "https://rafael09ed.github.io/WebSlideshow/"
+    "secondaryLink": "https://rafael09ed.github.io/WebSlideshow/",
+    "embedURL": "https://rafael09ed.github.io/WebSlideshow/"
   },
   {
   "title" : "Key Terms Linker Bookmarklet",
