@@ -144,3 +144,26 @@
 .card .card-image .image img {
     object-fit: cover;
 }
+
+.video_parent {
+    position: relative;
+    overflow: hidden;
+}
+
+.video_parent > video {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%); 
+}
+
+.card-header{
+    border-style: solid;
+    border-width: 1px;
+    border-color: lightgrey;
+}
+
+.card-content {
+    padding-top: 16px !important;
+    padding-bottom: 28px !important;
+}

@@ -18,18 +18,28 @@
   },
   {
     "title" : "Liberty Prime",
-    "body": "Google Asssistant Skill that gives quotes from the robot Liberty Prime from the game Fallout 4",
+    "body": "Google Asssistant Skill that gives quotes from the robot Liberty Prime from the game Fallout4",
     "stats": "880+ unique users",
     "primaryText": "Google Assistant Page",
-    "primaryLink": "https://assistant.google.com/services/a/uid/000000a34f40eecd"
+    "primaryLink": "https://assistant.google.com/services/a/uid/000000a34f40eecd",
+    "photoURL": "./media/libertyPrime.jpg"
+
   },
   {
-    "title" : "t-min.us",
-    "body": "Website for creating countdowns with shareable URLs",
-    "primaryText": "Website",
-    "primaryLink": "http://t-min.us/",
+    "title" : "Infinite Photo Fill",
+    "body": "Created program to navigate and generate an infinite canvas of photos without using a grid",
+    "primaryText": "Demo",
+    "primaryLink": "https://rafaeldejesus.com/photoFill/alt2/index.html",
     "secondaryText": "GitHub",
-    "secondaryLink": "https://github.com/Rafael09ED/t-minus-frontend"
+    "secondaryLink": "https://github.com/Rafael09ED/photoFill",
+    "photoURL": "./media/photoFill.jpg"
+  },
+  {
+    "title" : "Contribution to sindresorhus/p-queue",
+    "body": "Added concurrency controls with corresponding documentation and tests to popular Javascript promise queue library",
+    "primaryText": "Pull Request",
+    "primaryLink": "https://github.com/sindresorhus/p-queue/pull/35",
+    "photoURL": "./media/pqueue.png"
   },
   {
     "title" : "Nexus Mod Manager Mod Profile Exporter",
@@ -37,23 +47,7 @@
     "stats": "110+ downloads",
     "primaryText": "GitHub",
     "primaryLink": "https://github.com/Rafael09ED/NMMModProfileExporter",
-    "secondaryText": "Download",
-    "secondaryLink": "https://github.com/Rafael09ED/NMMModProfileExporter/releases"
-  },
-  {
-    "title" : "Contribution to sindresorhus/p-queue",
-    "body": "Added concurrency controls with corresponding documentation and tests to popular Javascript promise queue library",
-    "primaryText": "Pull Request",
-    "primaryLink": "https://github.com/sindresorhus/p-queue/pull/35"
-  },
-  {
-    "title" : "Infinite Photo Fill",
-    "body": "A program to navigate and generate an infinite canvas of photos without using a grid",
-    "primaryText": "Algorithm Demo",
-    "primaryLink": "https://rafaeldejesus.com/photoFill/",
-    "secondaryText": "GitHub",
-    "secondaryLink": "https://github.com/Rafael09ED/photoFill",
-    "photoURL": "./media/photoFill.png"
+    "videoURL": "./media/profileExporter.webm"
   },
   {
     "title" : "Survivable Crashes mod - Arma 3",
@@ -66,10 +60,13 @@
     "youtubeCode": "PV9u3UXykHc?start=40"
   },
   {
-    "title" : "Fight Blight Bmore Blight Indicators Heatmap",
-    "body": "Assisted creating blight heatmap during the 2018 Hack for Impact Baltimore Hackathon",
-    "primaryText": "GitHub",
-    "primaryLink": "https://github.com/chrisuehlinger/bmore-blight-map"
+    "title" : "t-min.us",
+    "body": "Website for creating countdowns with shareable URLs",
+    "primaryText": "Website",
+    "primaryLink": "http://t-min.us/",
+    "secondaryText": "GitHub",
+    "secondaryLink": "https://github.com/Rafael09ED/t-minus-frontend",
+    "photoURL": "./media/tminus.jpg"
   },
   {
     "title" : "Web SlideShow",
@@ -84,6 +81,7 @@
   "title" : "Key Terms Linker Bookmarklet",
   "body": "Bookmarklet to hyperlink key words on a webpage to its matching Wikipedia page",
   "primaryText": "GitHub Gist",
-  "primaryLink": "https://gist.github.com/Rafael09ED/a18a4dad88edc357b2d8eb28c75d74f2"
+  "primaryLink": "https://gist.github.com/Rafael09ED/a18a4dad88edc357b2d8eb28c75d74f2",
+  "photoURL": "./media/bookmarklet.jpg"
   }
 ]

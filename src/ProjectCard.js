@@ -11,21 +11,30 @@ class ProjectCard extends Component {
             <div className="column is-one-third-desktop is-half-tablet is-full-mobile">
                 <div className="card is-centered bm--card-equal-height">
                     { this.state.photoURL &&
-                        <div class="card-image is-hidden-tablet">
-                            <figure class="image">
+                        <div class="card-image">
+                            <figure class="image is-16by9">
                             <img src={this.state.photoURL} alt={`${this.state.title}`}/>
                             </figure>
                         </div>
                     }
                     { this.state.youtubeCode &&
-                        <div class="card-image is-hidden-tablet">
+                        <div class="card-image">
                             <figure class="image is-16by9">
                             <iframe class="has-ratio" title={`${this.state.youtubeCode}`} width="640" height="360" src={`https://www.youtube.com/embed/${this.state.youtubeCode}`} frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                             </figure>
                         </div>
                     }
+                    { this.state.videoURL &&
+                        <div class="card-image">
+                            <figure class="video_parent image is-16by9">
+                                <video width="640" height="360" controls playsinline autoplay muted loop>
+                                    <source src={this.state.videoURL} type="video/mp4"/>
+                                </video>
+                            </figure>
+                        </div>
+                    }
                     { this.state.embedURL &&
-                        <div class="card-image is-hidden-tablet">
+                        <div class="card-image">
                             <figure class="image is-16by9">
                             <iframe class="has-ratio" title={`${this.state.embedURL}`} width="640" height="360" src={this.state.embedURL} frameborder="0" allow="picture-in-picture"></iframe>
                             </figure>
