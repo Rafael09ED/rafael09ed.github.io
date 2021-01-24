@@ -20,7 +20,7 @@ class ProjectCard extends Component {
                     { this.state.youtubeCode &&
                         <div class="card-image">
                             <figure class="image is-16by9">
-                            <iframe class="has-ratio" title={`${this.state.youtubeCode}`} width="640" height="360" src={`https://www.youtube.com/embed/${this.state.youtubeCode}`} frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                <iframe class="has-ratio" title={`${this.state.youtubeCode}`} width="640" height="360" src={`https://www.youtube.com/embed/${this.state.youtubeCode}`} frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="true"></iframe>
                             </figure>
                         </div>
                     }

@@ -3,6 +3,8 @@
     "title" : "TRACE Camp",
     "body": "Co-founder, teaching students web programming. Adapted to successful online format during COVID-19",
     "stats" : "60+ students, 40k+ grant funding",
+    "stack" : "Django, React, Python, JS",
+    "year" : "2018-2020", 
     "primaryText": "Website",
     "primaryLink": "https://tracecamp.com/",
     "secondaryText": "Impact",
@@ -11,15 +13,19 @@
   },
   {
     "title" : "Pads for Change",
-    "body": "Created IoT feminine hygiene dispenser with team. Won Best Hardware Hack for Clemson's 2019 Hackathon",
+    "body": "Created IoT feminine hygiene dispenser with team at Clemson's CUHackit Hackathon",
     "primaryText": "Devpost",
     "primaryLink": "https://devpost.com/software/cuhackit-2019",
+    "stats": "Won Best Hardware Hack",
+    "year" : "2019", 
     "photoURL": "./media/padsForChange.jpg"
   },
   {
     "title" : "Liberty Prime",
     "body": "Google Asssistant Skill that gives quotes from the robot Liberty Prime from the game Fallout4",
     "stats": "880+ unique users",
+    "stack" : "Dialogflow",
+    "year" : "2018",
     "primaryText": "Google Assistant Page",
     "primaryLink": "https://assistant.google.com/services/a/uid/000000a34f40eecd",
     "photoURL": "./media/libertyPrime.jpg"
@@ -28,6 +34,8 @@
   {
     "title" : "Infinite Photo Fill",
     "body": "Created program to navigate and generate an infinite canvas of photos without using a grid",
+    "stack" : "TypeScript, Konva, Webpack",
+    "year" : "2020",
     "primaryText": "Demo",
     "primaryLink": "https://rafaeldejesus.com/photoFill/alt2/index.html",
     "secondaryText": "GitHub",
@@ -37,6 +45,8 @@
   {
     "title" : "Contribution to sindresorhus/p-queue",
     "body": "Added concurrency controls with corresponding documentation and tests to popular Javascript promise queue library",
+    "stack" : "Javascript",
+    "year" : "2018",
     "primaryText": "Pull Request",
     "primaryLink": "https://github.com/sindresorhus/p-queue/pull/35",
     "photoURL": "./media/pqueue.png"
@@ -45,6 +55,8 @@
     "title" : "Nexus Mod Manager Mod Profile Exporter",
     "body": "Finds, formats and exports mod profile lists from the Nexis Mod Manager into a customizable format",
     "stats": "110+ downloads",
+    "stack" : "Javascript",
+    "year" : "2017",
     "primaryText": "GitHub",
     "primaryLink": "https://github.com/Rafael09ED/NMMModProfileExporter",
     "videoURL": "./media/profileExporter.webm"
@@ -53,6 +65,8 @@
     "title" : "Survivable Crashes mod - Arma 3",
     "body": "Video Game modification that prevents death when the vehicle a player is in explodes",
     "stats": "1330+ downloads",
+    "stack" : "SQF",
+    "year" : "2016",
     "primaryText": "BI Forums",
     "primaryLink": "https://forums.bohemia.net/forums/topic/190516-survivable-crashes-shoot-downs-mod/",
     "secondaryText": "GitHub",
@@ -62,6 +76,8 @@
   {
     "title" : "t-min.us",
     "body": "Website for creating countdowns with shareable URLs",
+    "stack" : "Django, React",
+    "year" : "2019",
     "primaryText": "Website",
     "primaryLink": "http://t-min.us/",
     "secondaryText": "GitHub",
@@ -71,6 +87,8 @@
   {
     "title" : "Web SlideShow",
     "body": "A very basic web application that shuffles and displays pictures in a slideshow format",
+    "stack" : "React, Javascript",
+    "year" : "2018",
     "primaryText": "GitHub",
     "primaryLink": "https://github.com/Rafael09ED/WebSlideshow",
     "secondaryText": "Live",
@@ -80,6 +98,8 @@
   {
   "title" : "Key Terms Linker Bookmarklet",
   "body": "Bookmarklet to hyperlink key words on a webpage to its matching Wikipedia page",
+  "stack" : "Javascript",
+  "year" : "2017",
   "primaryText": "GitHub Gist",
   "primaryLink": "https://gist.github.com/Rafael09ED/a18a4dad88edc357b2d8eb28c75d74f2",
   "photoURL": "./media/bookmarklet.jpg"
