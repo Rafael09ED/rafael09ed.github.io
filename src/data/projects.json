@@ -27,7 +27,7 @@
     "stack" : "Dialogflow",
     "year" : "2018",
     "primaryText": "Google Assistant Page",
-    "primaryLink": "https://assistant.google.com/services/a/uid/000000a34f40eecd",
+    "primaryLink": "https://web.archive.org/web/20210228023840/https://assistant.google.com/services/a/uid/000000a34f40eecd",
     "photoURL": "./media/libertyPrime.jpg"
 
   },
@@ -78,22 +78,9 @@
     "body": "Website for creating countdowns with shareable URLs",
     "stack" : "Django, React",
     "year" : "2019",
-    "primaryText": "Website",
-    "primaryLink": "http://t-min.us/",
-    "secondaryText": "GitHub",
-    "secondaryLink": "https://github.com/Rafael09ED/t-minus-frontend",
-    "photoURL": "./media/tminus.jpg"
-  },
-  {
-    "title" : "Web SlideShow",
-    "body": "A very basic web application that shuffles and displays pictures in a slideshow format",
-    "stack" : "React, Javascript",
-    "year" : "2018",
     "primaryText": "GitHub",
-    "primaryLink": "https://github.com/Rafael09ED/WebSlideshow",
-    "secondaryText": "Live",
-    "secondaryLink": "https://rafael09ed.github.io/WebSlideshow/",
-    "embedURL": "https://rafael09ed.github.io/WebSlideshow/"
+    "primaryLink": "https://github.com/Rafael09ED/t-minus-frontend",
+    "photoURL": "./media/tminus.jpg"
   },
   {
   "title" : "Key Terms Linker Bookmarklet",

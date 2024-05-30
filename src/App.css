@@ -6,7 +6,7 @@
 .primarySection {
     padding: 2.2em;
     color: #000000;
-    height: 53vh;
+    height: 34vh;
 }
 
 .Section {
@@ -56,12 +56,12 @@
 }
 @media (min-width: 680px) and (orientation: landscape) { 
     .Name {
-        font-size: 9em;
+        font-size: 6em;
     }
 }
 
 .Title-Subtext {
-    font-size: 1.3em;
+    font-size: 1.42em;
     width: 90vw;
     max-width: 1200px;
 }

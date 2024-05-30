@@ -53,8 +53,11 @@ class App extends Component {
                     <h1 className="Name ">Rafael DeJesus</h1>
                 </div>
                 <div className="Section">
+                    <p className="Title-Subtext primaryContent center_text" style={{paddingBottom: 16}}>
+                        I am a Full Stack Developer at SAP SuccessFactors in Palo Alto. Computer Science B.S. from Clemson University. 
+                    </p>
                     <p className="Title-Subtext primaryContent center_text">
-                        I am a Full Stack Developer under the SNT Program at SAP Labs in Palo Alto and a Computer Science graduate from Clemson University with interests in HCI, strategy, teamwork, data visualization, physics, philosophy, public policy, video games, design and electronics.
+                        Interests in HCI, strategy, teamwork, data visualization, startups, AI, physics, philosophy, public policy, video games, design and electronics.
                     </p>
                 </div>
                 <div className="Section dark_grey patternedFixedBg">
@@ -87,7 +90,7 @@ class App extends Component {
                     <br/>
                 </div>
                 <div className="Section black patternedFixedBg">
-                    <p className="">Created 2021 by Rafael DeJesus</p>
+                    <p className="">Created 2024 by Rafael DeJesus</p>
                 </div>
             </div>
         );

@@ -1,10 +1,10 @@
 [
   {
     "title": "I use",
-    "list": ["JavaScript", "TS", "Python", "Java", "C++", "HTML", "CSS"]
+    "list": ["TypeScript", "React.js", "Python", "HTML", "CSS", "LLMs"]
   },
   {
     "title": "and I have used",
-    "list": ["SQL", "SQF", "Django", "React.js", "After Effects"]
+    "list": ["SQL", "SQF", "Django", "C++", "After Effects"]
   }
 ]
