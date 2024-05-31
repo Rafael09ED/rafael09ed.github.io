@@ -2,7 +2,7 @@
   {
     "title" : "TRACE Camp",
     "body": "Co-founder, teaching students web programming. Adapted to successful online format during COVID-19",
-    "stats" : "60+ students, 40k+ grant funding",
+    "stats" : "60+ students, $70k+ grant funding",
     "stack" : "Django, React, Python, JS",
     "year" : "2018-2020", 
     "primaryText": "Website",
@@ -22,7 +22,7 @@
   },
   {
     "title" : "Liberty Prime",
-    "body": "Google Asssistant Skill that gives quotes from the robot Liberty Prime from the game Fallout4",
+    "body": "Google Assistant Skill that gives quotes from the robot Liberty Prime from the game Fallout4",
     "stats": "880+ unique users",
     "stack" : "Dialogflow",
     "year" : "2018",
